@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+input{
+width: 80px;
+margin: 5px;
+}
+
+button{
+  background-color: hsl(259, 100%, 65%);
+position:absolute;
+top:110px;
+left:110px;
+
+
+}
+button img{
+  width:30px;
+  
+}
+
