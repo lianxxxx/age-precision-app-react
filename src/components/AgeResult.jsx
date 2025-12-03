@@ -1,14 +1,14 @@
 function AgeResult({ resultYears, resultMonths, resultDays }) {
   return (
-    <div className="text-center mt-4">
-      <h2>
-        <span>{resultYears}</span> Years
+    <div className="ageResult">
+      <h2 className="fst-italic fw-bold">
+        <span>{resultYears}</span> years
       </h2>
-      <h2>
-        <span>{resultMonths}</span> Months
+      <h2 className="fst-italic  fw-bold">
+        <span>{resultMonths}</span> months
       </h2>
-      <h2>
-        <span>{resultDays}</span> Days
+      <h2 className="fst-italic fw-bold">
+        <span>{resultDays}</span> days
       </h2>
     </div>
   );
