@@ -1,3 +1,5 @@
+import arrowIcon from "./assets/images/icon-arrow.svg";
+
 function AgeForm({
   day,
   month,
@@ -124,11 +126,7 @@ function AgeForm({
           className="border-0 rounded-circle p-3"
           onClick={handleCalculate}
         >
-          <img
-            src="/assets/images/icon-arrow.svg"
-            className="img-fluid"
-            alt="submit"
-          />
+          <img src={arrowIcon} className="img-fluid" alt="submit" />
         </button>
       </div>
     </div>
