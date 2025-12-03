@@ -3,8 +3,6 @@ import AgeForm from "./components/AgeForm";
 import AgeResult from "./components/AgeResult";
 
 function App() {
-  //NOTE: Declaring variables and function must be outside or above the return
-
   //I used useState Hook for an updatable or changeable data
   const [day, setDay] = useState(""); // used to update the day in the input form (AgeForm.jsx)
   const [month, setMonth] = useState(""); // used to update the month in the input form (AgeForm.jsx)
